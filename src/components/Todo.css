@@ -1,0 +1,34 @@
+.todo-item{
+    min-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.todo-item:hover {
+    background-color: whitesmoke;
+}
+
+.todo-item .day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-item .day span {
+    margin: 5px 0;
+}
+
+.todo-item .delete-icon:hover {
+    fill: #9c0000;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}

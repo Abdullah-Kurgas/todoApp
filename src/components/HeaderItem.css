@@ -1,0 +1,17 @@
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf2f2;
+    border-radius: 5px 5px 0 0;
+}
+
+.header-item:hover {
+    background-color: #d4dddd;
+    cursor: pointer;
+    user-select: none;
+}
+
+.selected {
+    background-color: #d4dddd;
+}
